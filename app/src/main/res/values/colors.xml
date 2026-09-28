@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="brand_green">#00875A</color>
+    <color name="brand_green_dark">#005C3D</color>
+    <color name="brand_orange">#E07A00</color>
+    <color name="brand_orange_pressed">#C66B00</color>
+    <color name="text_dark">#1A1A1A</color>
+    <color name="text_muted">#666666</color>
+    <color name="background_light">#F8F9FA</color>
+    <color name="white">#FFFFFF</color>
+</resources>

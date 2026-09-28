@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Top Header Navigation -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp">
+
+            <ImageView
+                android:id="@+id/btnMenu"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:contentDescription="Menu"
+                android:src="@drawable/ic_menu" />
+
+            <TextView
+                android:id="@+id/tvHeaderTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="OUR ACTIVITIES"
+                android:textColor="#1B5E20"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <!-- Activity 1: Ziplining Adventure -->
+        <LinearLayout
+            android:id="@+id/cardZiplining"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#F5F5F5"
+            android:padding="12dp"
+            android:layout_marginBottom="16dp">
+
+            <ImageView
+                android:id="@+id/img_ziplining"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:scaleType="centerCrop"
+                android:contentDescription="Ziplining Adventure"
+                android:src="@drawable/img_ziplining" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ziplining Adventure"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginTop="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Experience breathtaking views while ziplining through the forest."
+                android:textColor="#666666"
+                android:textSize="13sp"
+                android:layout_marginTop="2dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Starting from R750"
+                android:textColor="#1B5E20"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:layout_marginTop="6dp" />
+
+            <Button
+                android:id="@+id/btnBookZiplining"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginTop="8dp"
+                android:backgroundTint="#D97706"
+                android:text="VIEW DETAILS &amp; BOOK"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+
+        <!-- Activity 2: Rock Climbing Session -->
+        <LinearLayout
+            android:id="@+id/cardRockClimbing"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#F5F5F5"
+            android:padding="12dp"
+            android:layout_marginBottom="16dp">
+
+            <ImageView
+                android:id="@+id/img_rock_climbing"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:scaleType="centerCrop"
+                android:contentDescription="Rock Climbing Session"
+                android:src="@drawable/img_rock_climbing" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rock Climbing Session"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginTop="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Learn climbing techniques on natural rock faces with expert guidance."
+                android:textColor="#666666"
+                android:textSize="13sp"
+                android:layout_marginTop="2dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Starting from R750"
+                android:textColor="#1B5E20"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:layout_marginTop="6dp" />
+
+            <Button
+                android:id="@+id/btnBookRockClimbing"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginTop="8dp"
+                android:backgroundTint="#D97706"
+                android:text="VIEW DETAILS &amp; BOOK"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+
+        <!-- Activity 3: Mountain Adventure Package -->
+        <LinearLayout
+            android:id="@+id/cardMountainAdventure"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#F5F5F5"
+            android:padding="12dp"
+            android:layout_marginBottom="16dp">
+
+            <ImageView
+                android:id="@+id/img_mountain_adventure"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:scaleType="centerCrop"
+                android:contentDescription="Mountain Adventure Package"
+                android:src="@drawable/img_mountain_adventure" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mountain Adventure Package"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginTop="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="A guided mountain adventure for outdoor enthusiasts including hiking &amp; scrambling."
+                android:textColor="#666666"
+                android:textSize="13sp"
+                android:layout_marginTop="2dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Starting from R1500"
+                android:textColor="#1B5E20"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:layout_marginTop="6dp" />
+
+            <Button
+                android:id="@+id/btnBookMountainAdventure"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginTop="8dp"
+                android:backgroundTint="#D97706"
+                android:text="VIEW DETAILS &amp; BOOK"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+
+        <!-- Activity 4: Family Explorer Package -->
+        <LinearLayout
+            android:id="@+id/cardFamilyExplorer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#F5F5F5"
+            android:padding="12dp"
+            android:layout_marginBottom="16dp">
+
+            <ImageView
+                android:id="@+id/img_family_explorer"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:scaleType="centerCrop"
+                android:contentDescription="Family Explorer Package"
+                android:src="@drawable/img_family_explorer" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Family Explorer Package"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginTop="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="A fun-filled outdoor experience designed for families featuring nature walks and games."
+                android:textColor="#666666"
+                android:textSize="13sp"
+                android:layout_marginTop="2dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Starting from R1500"
+                android:textColor="#1B5E20"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:layout_marginTop="6dp" />
+
+            <Button
+                android:id="@+id/btnBookFamilyExplorer"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginTop="8dp"
+                android:backgroundTint="#D97706"
+                android:text="VIEW DETAILS &amp; BOOK"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+
+        <!-- Activity 5: Kayaking Experience -->
+        <LinearLayout
+            android:id="@+id/cardKayakingExperience"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#F5F5F5"
+            android:padding="12dp"
+            android:layout_marginBottom="16dp">
+
+            <ImageView
+                android:id="@+id/img_kayaking_experience"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:scaleType="centerCrop"
+                android:contentDescription="Kayaking Experience"
+                android:src="@drawable/img_kayaking_experience" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kayaking Experience"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginTop="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Paddle through scenic rivers and lakes with guided support and full equipment."
+                android:textColor="#666666"
+                android:textSize="13sp"
+                android:layout_marginTop="2dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Starting from R750"
+                android:textColor="#1B5E20"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:layout_marginTop="6dp" />
+
+            <Button
+                android:id="@+id/btnBookKayaking"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginTop="8dp"
+                android:backgroundTint="#D97706"
+                android:text="VIEW DETAILS &amp; BOOK"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+
+        <!-- Activity 6: Corporate Team Challenge -->
+        <LinearLayout
+            android:id="@+id/cardCorporateChallenge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#F5F5F5"
+            android:padding="12dp"
+            android:layout_marginBottom="16dp">
+
+            <ImageView
+                android:id="@+id/img_corporate_challenge"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:scaleType="centerCrop"
+                android:contentDescription="Corporate Team Challenge"
+                android:src="@drawable/img_corporate_challenge" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Corporate Team Challenge"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginTop="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Team-building activities including raft-building and obstacle courses."
+                android:textColor="#666666"
+                android:textSize="13sp"
+                android:layout_marginTop="2dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Starting from R1500"
+                android:textColor="#1B5E20"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:layout_marginTop="6dp" />
+
+            <Button
+                android:id="@+id/btnBookCorporate"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginTop="8dp"
+                android:backgroundTint="#D97706"
+                android:text="VIEW DETAILS &amp; BOOK"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+
+        <!-- Activity 7: Ultimate Adventure Day -->
+        <LinearLayout
+            android:id="@+id/cardUltimateAdventure"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#F5F5F5"
+            android:padding="12dp"
+            android:layout_marginBottom="16dp">
+
+            <ImageView
+                android:id="@+id/img_ultimate_adventure"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:scaleType="centerCrop"
+                android:contentDescription="Ultimate Adventure Day"
+                android:src="@drawable/img_ultimate_adventure" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ultimate Adventure Day"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginTop="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="A full-day outdoor adventure featuring hiking, ziplining, and kayaking."
+                android:textColor="#666666"
+                android:textSize="13sp"
+                android:layout_marginTop="2dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Starting from R1500"
+                android:textColor="#1B5E20"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:layout_marginTop="6dp" />
+
+            <Button
+                android:id="@+id/btnBookUltimate"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginTop="8dp"
+                android:backgroundTint="#D97706"
+                android:text="VIEW DETAILS &amp; BOOK"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
